@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="418.0" prefWidth="650.0" style="-fx-background-color: #1C2833;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane layoutY="-6.0" opacity="0.85" prefHeight="71.0" prefWidth="650.0" style="-fx-background-color: #17202A;">
+         <children>
+            <Text fill="#ea1e63" layoutX="76.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sangeet" wrappingWidth="128.865234375">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="62.0" fitWidth="64.0" layoutX="8.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@AppIcon/icons8-Music_100.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="closeButton" fitHeight="21.0" fitWidth="22.0" layoutX="621.0" layoutY="12.0" onMouseClicked="#closeButton" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons/icons8-Cancel-32.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="21.0" fitWidth="22.0" layoutX="596.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons/minimizeButton.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
